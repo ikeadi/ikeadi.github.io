@@ -1,0 +1,79 @@
+body {
+    background-image: url(assets/img/Landing_Background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body header {
+    margin-top: 20%;
+    margin-bottom: 0%;
+    margin-left: 25%;
+    width: 50%;
+    margin-right: 25%;
+
+}
+
+.signatureImage {
+    width: 50%;
+	margin: auto;
+
+
+}
+
+.navSpace {
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.navBar {
+	display: flex;
+	justify-content: center;
+
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.navBarContents {
+	display: flex;
+	justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+    height: 30px;
+    text-align: center;
+	/* padding: 0 24% 0 24%;
+	margin: auto; */
+}
+
+.navBarItem a {
+    color: rgba(255,255,255,1.00);
+    text-decoration: none;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width:375px){
+	.navBarContents{
+		flex-direction:column;
+	}
+	.navBarItem a{
+		text-align: center;
+		float: none;
+
+	}
+}
+
+@media screen and (min-width:800px){
+	.navBarContents {
+		justify-content: center;
+	}
+}
+
