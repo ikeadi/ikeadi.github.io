@@ -28,10 +28,9 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ikeadi
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+collection:
+  projects:
+    output: true
 
 defaults:
   - scope:
@@ -42,6 +41,13 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "ikeadi"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
