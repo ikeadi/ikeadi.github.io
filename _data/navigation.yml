@@ -1,0 +1,8 @@
+- name: ABOUT
+  permalink: /about/
+- name: BLOG
+  permalink: /blog/
+- name: CONTACT
+  permalink: /contact/
+- name: PORTFOLIO
+  permalink: /portfolio/
