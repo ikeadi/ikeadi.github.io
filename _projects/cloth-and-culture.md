@@ -1,5 +1,5 @@
 ---
-layout: project
+title: "Of Cloth and Culture"
 ---
 This is an example of ikeadi's thesis project
 
