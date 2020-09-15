@@ -1,9 +1,11 @@
 <header>
-  <div class="signatureImage">
-    <a href={{ site.baseurl }}><img src="/assets/img/Signature_Black.svg"/></a>
+  <div>
+    <a href={{ site.baseurl }}>
+      <span>Ikeadi Ndukwu</span>
+    </a>
   </div>
-  <div class="navSpace">
-    <nav class="navBar">
+  <div>
+    <nav>
       {% for item in site.data.navigation %}
         <a href="{{item.permalink}}">{{ item.name }}</a>
       {% endfor %}
